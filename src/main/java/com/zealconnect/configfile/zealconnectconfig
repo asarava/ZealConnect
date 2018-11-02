@@ -1,0 +1,4 @@
+URL = http://192.168.10.35:8112
+GeckoDriverLocation = C:\\Users\\user\\Desktop\\Selenium\\geckodriver-v0.18.0-win64\\geckodriver.exe
+Username = bitest
+Password = staging@1
