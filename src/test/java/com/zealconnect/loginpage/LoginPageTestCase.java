@@ -21,9 +21,14 @@ public class LoginPageTestCase extends BaseConfiguration {
 		lgnpage = new LoginPage();
 	}
 	
-	@Test
+	@Test(priority = 1)
 	public void loginTestCase() {
 		lgnpage.userLogin(userName, password);		
+	}
+	
+	@Test(priority = 2)
+	public void loginTestCaseAssert() {
+		System.out.println(driver.getTitle());
 	}
 	
 	@AfterMethod

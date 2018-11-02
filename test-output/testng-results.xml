@@ -1,25 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="21404" started-at="2018-11-02T06:55:14Z" finished-at="2018-11-02T06:55:35Z">
+  <suite name="Default suite" duration-ms="29569" started-at="2018-11-02T11:18:29Z" finished-at="2018-11-02T11:18:58Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="21404" started-at="2018-11-02T06:55:14Z" finished-at="2018-11-02T06:55:35Z">
+    <test name="Default test" duration-ms="29569" started-at="2018-11-02T11:18:29Z" finished-at="2018-11-02T11:18:58Z">
       <class name="com.zealconnect.loginpage.LoginPageTestCase">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.zealconnect.loginpage.LoginPageTestCase@224edc67]" name="setup" is-config="true" duration-ms="15605" started-at="2018-11-02T06:55:14Z" finished-at="2018-11-02T06:55:29Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.zealconnect.loginpage.LoginPageTestCase@224edc67]" name="setup" is-config="true" duration-ms="13194" started-at="2018-11-02T11:18:29Z" finished-at="2018-11-02T11:18:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginTestCase()[pri:0, instance:com.zealconnect.loginpage.LoginPageTestCase@224edc67]" name="loginTestCase" duration-ms="4283" started-at="2018-11-02T06:55:29Z" finished-at="2018-11-02T06:55:34Z">
+        <test-method status="PASS" signature="loginTestCase()[pri:1, instance:com.zealconnect.loginpage.LoginPageTestCase@224edc67]" name="loginTestCase" duration-ms="4195" started-at="2018-11-02T11:18:42Z" finished-at="2018-11-02T11:18:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTestCase -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.zealconnect.loginpage.LoginPageTestCase@224edc67]" name="tearDown" is-config="true" duration-ms="1497" started-at="2018-11-02T06:55:34Z" finished-at="2018-11-02T06:55:35Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.zealconnect.loginpage.LoginPageTestCase@224edc67]" name="tearDown" is-config="true" duration-ms="1516" started-at="2018-11-02T11:18:46Z" finished-at="2018-11-02T11:18:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.zealconnect.loginpage.LoginPageTestCase@224edc67]" name="setup" is-config="true" duration-ms="9409" started-at="2018-11-02T11:18:48Z" finished-at="2018-11-02T11:18:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTestCaseAssert()[pri:2, instance:com.zealconnect.loginpage.LoginPageTestCase@224edc67]" name="loginTestCaseAssert" duration-ms="15" started-at="2018-11-02T11:18:57Z" finished-at="2018-11-02T11:18:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestCaseAssert -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.zealconnect.loginpage.LoginPageTestCase@224edc67]" name="tearDown" is-config="true" duration-ms="1235" started-at="2018-11-02T11:18:57Z" finished-at="2018-11-02T11:18:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.zealconnect.loginpage.LoginPageTestCase -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
